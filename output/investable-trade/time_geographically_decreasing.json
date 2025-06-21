@@ -1,0 +1,218 @@
+[
+    {
+        "Julia": "1.11.5",
+        "BenchmarkTools": {
+            "major": 1,
+            "minor": 6,
+            "patch": 0,
+            "prerelease": [],
+            "build": []
+        }
+    },
+    [
+        [
+            "BenchmarkGroup",
+            {
+                "data": {
+                    "run_model": [
+                        "BenchmarkGroup",
+                        {
+                            "data": {
+                                "NE-GD_FF-susd-tight-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 6945237,
+                                        "gctimes": [
+                                            2.35953615e8,
+                                            2.57023564e8,
+                                            1.68929223e8,
+                                            2.73032447e8,
+                                            1.31050627e8,
+                                            2.68960555e8,
+                                            1.66371448e8,
+                                            2.75596214e8,
+                                            1.39104644e8,
+                                            1.39126494e8
+                                        ],
+                                        "memory": 390333064,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 10,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            3.245623414869e12,
+                                            1.05390608598e12,
+                                            7.62320569775e12,
+                                            1.006916484293e12,
+                                            1.003014041257e12,
+                                            3.211721029511e12,
+                                            2.851151861269e12,
+                                            1.233680662763e12,
+                                            9.73026473878e11,
+                                            1.139979603147e12
+                                        ]
+                                    }
+                                ],
+                                "NE-GD_FF-basic-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 4688156,
+                                        "gctimes": [
+                                            1.98284057e8,
+                                            7.8237162e7,
+                                            1.1244305e8,
+                                            2.25825223e8,
+                                            7.8692552e7,
+                                            1.96437623e8,
+                                            1.05831097e8,
+                                            2.1890107e8,
+                                            1.51260095e8,
+                                            1.74528366e8
+                                        ],
+                                        "memory": 281456528,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 10,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            7.62188456145e11,
+                                            7.33069363351e11,
+                                            7.1878055636e11,
+                                            8.22670266152e11,
+                                            7.07139605965e11,
+                                            9.43409181196e11,
+                                            8.20843532047e11,
+                                            6.73870607523e11,
+                                            8.76644616304e11,
+                                            8.02838514882e11
+                                        ]
+                                    }
+                                ]
+                            },
+                            "tags": []
+                        }
+                    ],
+                    "create_model": [
+                        "BenchmarkGroup",
+                        {
+                            "data": {
+                                "NE-GD_FF-susd-tight-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 35380285,
+                                        "gctimes": [
+                                            4.20569274e8,
+                                            4.69704615e8,
+                                            6.1740633e8,
+                                            5.3070997e8,
+                                            6.11157592e8,
+                                            4.32570146e8,
+                                            5.33582632e8,
+                                            5.55439994e8,
+                                            6.59315274e8,
+                                            6.12943775e8
+                                        ],
+                                        "memory": 2250785672,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 10,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            4.906300521e9,
+                                            4.9810962e9,
+                                            5.198305315e9,
+                                            5.090525819e9,
+                                            5.245191786e9,
+                                            4.996579596e9,
+                                            5.035672068e9,
+                                            5.246864048e9,
+                                            5.300589899e9,
+                                            5.221218485e9
+                                        ]
+                                    }
+                                ],
+                                "NE-GD_FF-basic-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 25919255,
+                                        "gctimes": [
+                                            2.75520291e8,
+                                            3.74811922e8,
+                                            3.84779658e8,
+                                            3.96353834e8,
+                                            3.16008244e8,
+                                            5.49634719e8,
+                                            3.64199574e8,
+                                            3.63212467e8,
+                                            3.38451881e8,
+                                            5.17017837e8
+                                        ],
+                                        "memory": 1576033016,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 10,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            3.412957059e9,
+                                            3.53473628e9,
+                                            3.549759583e9,
+                                            3.611153192e9,
+                                            3.474384919e9,
+                                            3.737537387e9,
+                                            3.581156857e9,
+                                            3.620452571e9,
+                                            3.524878475e9,
+                                            3.757717447e9
+                                        ]
+                                    }
+                                ]
+                            },
+                            "tags": []
+                        }
+                    ]
+                },
+                "tags": []
+            }
+        ]
+    ]
+]
