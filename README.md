@@ -1,0 +1,1 @@
+# Startup-Shutdown-Capability-Data
