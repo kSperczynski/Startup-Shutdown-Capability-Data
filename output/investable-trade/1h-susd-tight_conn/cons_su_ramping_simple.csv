@@ -10868,7 +10868,7 @@ id,asset,year,rep_period,time_block_start,time_block_end,dual_su_ramping_simple
 10867,FR_Coal,2030,3,19,19,0.0
 10868,FR_Coal,2030,3,20,20,0.0
 10869,FR_Coal,2030,3,21,21,0.0
-10870,FR_Coal,2030,3,22,22,-0.5133
+10870,FR_Coal,2030,3,22,22,0.0
 10871,FR_Coal,2030,3,23,23,0.0
 10872,FR_Coal,2030,3,24,24,0.0
 10873,FR_Coal,2030,4,1,1,0.0

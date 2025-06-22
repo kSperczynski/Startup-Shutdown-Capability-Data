@@ -1,0 +1,598 @@
+[
+    {
+        "Julia": "1.11.5",
+        "BenchmarkTools": {
+            "major": 1,
+            "minor": 6,
+            "patch": 0,
+            "prerelease": [],
+            "build": []
+        }
+    },
+    [
+        [
+            "BenchmarkGroup",
+            {
+                "data": {
+                    "run_model": [
+                        "BenchmarkGroup",
+                        {
+                            "data": {
+                                "NE-1h-basic-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 4731766,
+                                        "gctimes": [
+                                            1.43545851e8,
+                                            7.3335593e7,
+                                            7.3788245e7,
+                                            1.65693147e8,
+                                            1.28071886e8
+                                        ],
+                                        "memory": 307056920,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            1.18875033111e11,
+                                            5.4684592963e10,
+                                            7.7424215628e10,
+                                            5.8532446161e10,
+                                            1.05985356146e11
+                                        ]
+                                    }
+                                ],
+                                "NE-4h-basic-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 1176506,
+                                        "gctimes": [
+                                            1.2502619e7,
+                                            3.0111129e7,
+                                            1.6494407e7,
+                                            2.9077885e7,
+                                            1.1800755e7
+                                        ],
+                                        "memory": 79601840,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            1.3144464266e10,
+                                            8.104599368e9,
+                                            2.2859553068e10,
+                                            1.5989396112e10,
+                                            7.02691824e9
+                                        ]
+                                    }
+                                ],
+                                "NE-GD_FF-susd-tight-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 4302003,
+                                        "gctimes": [
+                                            1.39546989e8,
+                                            1.1294335e8,
+                                            1.82632411e8,
+                                            1.14215794e8,
+                                            1.58420929e8
+                                        ],
+                                        "memory": 271028976,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            3.30698159128e11,
+                                            3.78183694219e11,
+                                            1.98180275321e11,
+                                            2.60344753472e11,
+                                            2.77871732882e11
+                                        ]
+                                    }
+                                ],
+                                "NE-2h-basic-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 2375771,
+                                        "gctimes": [
+                                            1.06007947e8,
+                                            1.06864e8,
+                                            2.7769067e7,
+                                            6.7817202e7,
+                                            6.9817591e7
+                                        ],
+                                        "memory": 154389760,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            2.562317065e10,
+                                            2.8599856969e10,
+                                            2.2775660507e10,
+                                            4.5071574111e10,
+                                            4.2840232982e10
+                                        ]
+                                    }
+                                ],
+                                "NE-2h-susd-tight-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 3006102,
+                                        "gctimes": [
+                                            5.720041e7,
+                                            1.03798046e8,
+                                            4.2123563e7,
+                                            6.0743945e7,
+                                            4.6949311e7
+                                        ],
+                                        "memory": 196688032,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            3.090242478e10,
+                                            4.2776208201e10,
+                                            2.4456338432e10,
+                                            2.7427676249e10,
+                                            2.4772758632e10
+                                        ]
+                                    }
+                                ],
+                                "NE-4h-susd-tight-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 1436957,
+                                        "gctimes": [
+                                            1.9150495e7,
+                                            5.180196e7,
+                                            3.145623e7,
+                                            5.5930378e7,
+                                            1.637138e7
+                                        ],
+                                        "memory": 90332360,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            7.948584249e9,
+                                            1.173211781e10,
+                                            9.716356415e9,
+                                            1.4020579798e10,
+                                            1.3714299293e10
+                                        ]
+                                    }
+                                ],
+                                "NE-GD_FF-basic-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 3368893,
+                                        "gctimes": [
+                                            5.7912616e7,
+                                            4.111538e7,
+                                            1.38397762e8,
+                                            1.13696383e8,
+                                            6.3891047e7
+                                        ],
+                                        "memory": 211216848,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            2.70045154786e11,
+                                            1.50883634819e11,
+                                            1.83487927553e11,
+                                            2.06576969815e11,
+                                            2.04490746166e11
+                                        ]
+                                    }
+                                ],
+                                "NE-1h-susd-tight-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 6262556,
+                                        "gctimes": [
+                                            8.8484025e7,
+                                            1.21939693e8,
+                                            1.17031666e8,
+                                            1.29422873e8,
+                                            9.0320121e7
+                                        ],
+                                        "memory": 405233384,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            1.51044133749e11,
+                                            1.60480287627e11,
+                                            1.15766286355e11,
+                                            1.83445359837e11,
+                                            1.40293492966e11
+                                        ]
+                                    }
+                                ]
+                            },
+                            "tags": []
+                        }
+                    ],
+                    "create_model": [
+                        "BenchmarkGroup",
+                        {
+                            "data": {
+                                "NE-1h-basic-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 29604848,
+                                        "gctimes": [
+                                            3.96126663e8,
+                                            5.50669081e8,
+                                            4.82904872e8,
+                                            4.51747636e8,
+                                            4.49525776e8
+                                        ],
+                                        "memory": 1800156160,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            3.743010056e9,
+                                            3.89642805e9,
+                                            3.872308443e9,
+                                            3.936253343e9,
+                                            3.957927296e9
+                                        ]
+                                    }
+                                ],
+                                "NE-4h-basic-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 7816684,
+                                        "gctimes": [
+                                            8.0932812e7,
+                                            1.08331665e8,
+                                            1.0002374e8,
+                                            7.0684252e7,
+                                            1.4764948e8
+                                        ],
+                                        "memory": 492437144,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            1.917430117e9,
+                                            2.000263608e9,
+                                            1.988653477e9,
+                                            1.935706652e9,
+                                            2.063865899e9
+                                        ]
+                                    }
+                                ],
+                                "NE-GD_FF-susd-tight-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 28454076,
+                                        "gctimes": [
+                                            3.52374572e8,
+                                            4.19869097e8,
+                                            4.32654665e8,
+                                            4.0805382e8,
+                                            5.21122311e8
+                                        ],
+                                        "memory": 1822024120,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            4.386161264e9,
+                                            4.4712596e9,
+                                            4.503009449e9,
+                                            4.574287324e9,
+                                            4.687742463e9
+                                        ]
+                                    }
+                                ],
+                                "NE-2h-basic-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 15079400,
+                                        "gctimes": [
+                                            1.54011943e8,
+                                            2.26961598e8,
+                                            2.50398028e8,
+                                            3.11073414e8,
+                                            1.86031676e8
+                                        ],
+                                        "memory": 923559464,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            2.526435504e9,
+                                            2.613677443e9,
+                                            2.700184587e9,
+                                            2.73541361e9,
+                                            2.549966177e9
+                                        ]
+                                    }
+                                ],
+                                "NE-2h-susd-tight-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 19920262,
+                                        "gctimes": [
+                                            2.22973232e8,
+                                            3.08717892e8,
+                                            3.89204075e8,
+                                            3.13965706e8,
+                                            2.45602294e8
+                                        ],
+                                        "memory": 1276784624,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            3.569406599e9,
+                                            3.699444833e9,
+                                            3.81744789e9,
+                                            3.714656064e9,
+                                            3.687495889e9
+                                        ]
+                                    }
+                                ],
+                                "NE-4h-susd-tight-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 10063006,
+                                        "gctimes": [
+                                            9.4289494e7,
+                                            1.42648154e8,
+                                            9.9629068e7,
+                                            1.69985651e8,
+                                            1.3130808e8
+                                        ],
+                                        "memory": 669787608,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            2.697896209e9,
+                                            2.834654217e9,
+                                            2.751226236e9,
+                                            2.848069197e9,
+                                            2.787095361e9
+                                        ]
+                                    }
+                                ],
+                                "NE-GD_FF-basic-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 20765769,
+                                        "gctimes": [
+                                            2.16345015e8,
+                                            3.64504439e8,
+                                            3.71825348e8,
+                                            2.59027773e8,
+                                            4.04591059e8
+                                        ],
+                                        "memory": 1276188872,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            2.978916854e9,
+                                            3.177681225e9,
+                                            3.203963758e9,
+                                            3.135820902e9,
+                                            3.341274359e9
+                                        ]
+                                    }
+                                ],
+                                "NE-1h-susd-tight-conn-inv": [
+                                    "Trial",
+                                    {
+                                        "allocs": 40567768,
+                                        "gctimes": [
+                                            5.37193494e8,
+                                            7.02393033e8,
+                                            6.76465275e8,
+                                            6.52154721e8,
+                                            6.77543511e8
+                                        ],
+                                        "memory": 2577431616,
+                                        "params": [
+                                            "Parameters",
+                                            {
+                                                "gctrial": true,
+                                                "time_tolerance": 0.05,
+                                                "evals_set": false,
+                                                "samples": 5,
+                                                "evals": 1,
+                                                "gcsample": false,
+                                                "seconds": 86400.0,
+                                                "overhead": 0.0,
+                                                "memory_tolerance": 0.01
+                                            }
+                                        ],
+                                        "times": [
+                                            5.518863045e9,
+                                            5.693834456e9,
+                                            5.591469152e9,
+                                            5.790459928e9,
+                                            5.731074419e9
+                                        ]
+                                    }
+                                ]
+                            },
+                            "tags": []
+                        }
+                    ]
+                },
+                "tags": []
+            }
+        ]
+    ]
+]
